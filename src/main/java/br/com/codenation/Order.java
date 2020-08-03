@@ -5,6 +5,7 @@ import br.com.codenation.paymentmethods.PaymentMethod;
 public class Order {
 
     private Double price;
+
     private PaymentMethod paymentMethod;
 
     public Order(Double price, PaymentMethod paymentMethod) {
